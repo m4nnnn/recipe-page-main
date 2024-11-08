@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+h1,h2{
+    font-family: 'Young Serif';
+    padding: 25px;
+    font-weight: 400;
+    
+}
+
+
+h3{
+    font-weight: 400;
+    color: hsl(332, 51%, 32%);
+    padding: 25px;
+}
+
+
+body{
+    font-family: "Outfit";
+    background-color: hsl(30, 54%, 90%); 
+    display: flex;   
+    border-radius: 25px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 2em;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 35px;
+    justify-content: center;
+    
+}
+
+.Ingredients {
+    color: hsl(14, 45%, 36%);
+    padding: 25px;
+    border-bottom: 1px solid hsl(24, 5%, 80%);
+}
+
+.Preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 25px; 
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.Instructions {
+    color: hsl(14, 45%, 36%);
+    padding: 25px ;
+    border-bottom: 1px solid hsl(24, 5%, 80%);
+}
+
+.Nutrition {
+    color: hsl(14, 45%, 36%);
+    padding: 25px;
+    
+}
+
+
+ul, ol, tr, p{
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+}
+
+main {
+    background-color: white;
+    padding: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px ;
+}
+
+span{
+    font-weight: bolder;
+}
+
+p{
+    padding-bottom: 25px;
+}
+
+li{
+    padding-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid hsl(24, 5%, 80%);
+}
+
+th {
+    text-align: left;
+    color: hsl(24, 5%, 18%);
+    font-weight: normal;
+}
+
+td {
+    text-align: left;
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+}
